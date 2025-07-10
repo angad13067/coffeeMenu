@@ -6,13 +6,39 @@
 }
 
 :root{
+    --main-gradient: linear-gradient(#5294FF,#A3F4FF);
     --bg-color: white;
     --second-bg-color: #101010;
-    --main-color: #fc0303;
+    --main-color: #00704A;
+
 
 }
 
 body{
-    background: var(--bg-color);
-    color: var(--text-color);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: var(--main-gradient);
+    background-size: cover;
+ 
+   
+    
+}
+
+.drink-icons a{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    color: var(--main-color);
+    margin: 3rem 0.5rem;
+    transition: 0.3s ease-in-out;
+    
+
+
 }
