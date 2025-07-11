@@ -45,7 +45,42 @@ body{
 
 }
 
+.drink-icons a:hover{
+    color: var(--second-bg-color); /*symbol color on hover*/
+    background-color: #fff;
+
+
+}
+
 h1{
     color: var(--text1-color);
     
+}
+
+.site-header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+
+    color: var(--text1-color);
+    
+ 
+}
+
+.btn-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
