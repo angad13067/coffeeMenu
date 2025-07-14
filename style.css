@@ -60,6 +60,8 @@ body{
 
 h1{
     color: var(--text1-color);
+    font-family: 'Shadows into Light';
+
     
 }
 
@@ -100,4 +102,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tip-sign{
+    font-family: 'Shadows Into Light';
 }
