@@ -65,6 +65,12 @@ h1{
     
 }
 
+.menu-picture{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .site-header{
 
     display: flex;
